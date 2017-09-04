@@ -8,3 +8,12 @@ function forLoop(array){
   }
   return array;
 }
+
+function whileLoop(num){
+  var index = num;
+  while(index >= 0){
+    console.log(index);
+    index--;
+  }
+  return 'done';
+}

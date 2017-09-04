@@ -11,7 +11,7 @@ function forLoop(array){
 
 function whileLoop(num){
   var index = num;
-  while(index >= 0){
+  while(index > 0){
     console.log(index);
     index--;
   }
@@ -23,7 +23,7 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array){
-  do{
+  do {
     array.pop();
   } while(array.length > 0 && maybeTrue());
   return array;
